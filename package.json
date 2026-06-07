@@ -1,0 +1,30 @@
+{
+  "name": "gittrending123",
+  "version": "1.0.0",
+  "description": "This project is a React application that fetches and displays trending GitHub repositories. It allows users to filter repositories by language and search criteria, and provides functionality to star repositories using the GitHub API.",
+  "main": "githubApi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/123prasan/githubtranding.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/123prasan/githubtranding/issues"
+  },
+  "homepage": "https://github.com/123prasan/githubtranding#readme",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "body-parser": "^2.2.0",
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "mongoose": "^8.15.1",
+    "node-cron": "^4.0.7"
+  }
+}
